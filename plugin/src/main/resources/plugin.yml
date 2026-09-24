@@ -1,0 +1,17 @@
+name: EchoGuard
+version: 1.0.2
+main: ru.echo.guard.EchoGuard
+api-version: '1.21.11'
+author: Echo Abyss
+description: Discord whitelist and single-use login confirmation
+commands:
+  echoallow:
+    description: Admit a player to mandatory Discord linking
+    usage: /echoallow <nickname>
+    permission: echoguard.admin
+  echoguard:
+    description: Show Discord bridge status
+    permission: echoguard.admin
+permissions:
+  echoguard.admin:
+    default: op

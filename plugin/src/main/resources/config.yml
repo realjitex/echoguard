@@ -1,0 +1,6 @@
+# Бот принимает соединения; Minecraft только обращается к нему.
+# На разных хостингах укажите внешний адрес БОТА и его выделенный TCP-порт.
+bot-url: 'http://127.0.0.1:8765'
+# Скопируйте BRIDGE_SECRET из app.py. Это НЕ Discord TOKEN.
+bridge-secret: 'COPY_BRIDGE_SECRET_FROM_APP_PY'
+request-timeout-seconds: 8
